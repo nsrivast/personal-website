@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Nikhil Srivastava</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="simplegrid.css" />
+		<link rel="stylesheet" type="text/css" href="main.css" />		
+	</head>
+
+	<body>
+		
+		<div class="header">
+			<div class="headerLeft">
+				Hi, I'm <span class="hotword" word="">Nikhil Srivastava</span>.
+			</div>
+			
+			<div class="headerRight">
+				<p>
+					<span class="introleft">By vocation,</span>I build <b><span class="hotword" word="product">products</span> & <span class="hotword" word="business">businesses</span></b> at the intersection of <b><span class="hotword" word="finance">finance</span> & <span class="hotword" word="technology">technology</span></b>.
+				</p>
+				<p>
+					<span class="introleft">By avocation,</span>I <b><span class="hotword" word="organize">organize</span> & <span class="hotword" word="visualize">visualize</span></b> information for efficient <b><span class="hotword" word="teaching">teaching & understanding</span></b>.
+				</p>
+			</div>
+		</div>
+		<div class="header-push">&nbsp;</div>
+		
+		<div class="gridContainer" id="gridContainer">
+		</div>
+		
+		<div class="footer-push">&nbsp;</div>
+		<div class="footer">
+			<b>Connect:</b> &nbsp; <a href='mailto:contact.nikhil.srivastava@gmail.com'>Email</a> | <a href='https://www.linkedin.com/pub/nikhil-srivastava/12/980/363'>LinkedIn</a> | <a href='https://github.com/nsrivast'>GitHub</a>
+		</div>
+		
+		<script src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="content.js"></script>
+		<script type="text/javascript" src="grid.js"></script>
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				createGrid();
+			  $('.gridContainer').css('padding-top', ($('.header').innerHeight() - 20));
+			});
+		</script>
+						
+	</body>
+</html>
