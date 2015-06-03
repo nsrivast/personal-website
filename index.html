@@ -35,13 +35,19 @@
 			<b>Connect:</b> &nbsp; <a href='mailto:contact.nikhil.srivastava@gmail.com'>Email</a> | <a href='https://www.linkedin.com/pub/nikhil-srivastava/12/980/363'>LinkedIn</a> | <a href='https://github.com/nsrivast'>GitHub</a>
 		</div>
 		
-		<script src="jquery-1.11.2.min.js"></script>
-		<script type="text/javascript" src="content.js"></script>
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="grid.js"></script>
+		<script type="text/javascript" src="events.js"></script>
+		<script type="text/javascript" src="gridContent.js"></script>
+		
 		<script type="text/javascript">
 			$( document ).ready(function() {
+				
 				createGrid();
+				setEvents();
+				
 			  $('.gridContainer').css('padding-top', ($('.header').innerHeight() - 20));
+				
 			});
 		</script>
 						

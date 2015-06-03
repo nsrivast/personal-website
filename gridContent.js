@@ -1,4 +1,41 @@
-var rows = [
+/*
+
+Loads structured content for resume grid. 
+
+gridContent is an ordered list of rowContent objects.
+
+Each rowContent object has the fields:
+	- id: unique name for row element id
+	- name: display text for row header
+	- class: custom classes for row element
+	- texts: ordered list of textContent objects
+	- tiles: ordered list of tileContent objects
+
+Each textContent object has the fields:
+	- html: display text for object
+	- size: width of object
+
+Each tileContent object has the fields:
+	- name: unique name for tile element id
+	- heading, blurb, role: display text for tile
+	- tags: list of hotwords for tile
+	- size: horizontal width of tile
+	- offset: horizontal offset of tile from previous tile (or start of row)
+	- descHeader, descContent: header and content of tile description dropdown
+
+*/
+
+var gridContent = [
+	{
+		"id": "year",
+		"name": "&nbsp;",
+		"class": "colHead",
+		"gridClass": "grid-bottom",
+		"texts": [
+			{ "html": "&larr; More Recent", "size": 4 },
+			{ "html": "Older &rarr;", "size": 4 }
+		]
+	},
 	{
 		"id": "work",
 		"name": "Work",
