@@ -17,7 +17,7 @@ function setEvents() {
 	});
 	
 	// On tile hover, 1) change to pointer cursor, 2) change color, 3) hover for linked hotwords
-	$( ".tileContent" ).css( 'cursor', 'pointer' )
+	$( ".tileContent" ).css( 'cursor', 'pointer' );
 	$( ".tileContent" ).hover(
 		function() {
 			$( this ).addClass( "tileHover" );
@@ -37,10 +37,9 @@ function setEvents() {
 	// On hotword hover, induce hover for linked tiles
 	$( ".hotword" ).hover(
 		function() {
-			var hotword = $( this ).attr( 'word' )
-			$( ".hotword" + hotword ).addClass( "tileHover" );
+			$( ".hotword" + $( this ).attr( 'word' ) ).addClass( "tileHover" );
 		}, function() {
-			$( ".hotword" + $( this ).attr( 'word' )).removeClass( "tileHover" );
+			$( ".hotword" + $( this ).attr( 'word' ) ).removeClass( "tileHover" );
 		}
 	);
 };
