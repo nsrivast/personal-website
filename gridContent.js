@@ -176,7 +176,7 @@ var gridContent = [
 				"size": 3,
 				"offset": 0,
 				"descHeader": "I teach a data visualization course",
-				"descContent": "<p>I plan to spend 8 weeks in Nairobi teaching a part-time course on Data Visualization for local university students and entrepreneurs. The course focuses on the principles and techniques of effective visualizations of complex information.</p><p>I will be designing the curriculum, conducting classroom instruction, and leading a group project.</p><p>More details to come.</p>"
+				"descContent": "<p>In Nairobi during the summer of 2015, I designed and taught a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focused on the principles and techniques of effective data visualization.</p><p>See the <a href='http://nsrivast.github.io/data-viz-nairobi/'>course website</a> for more information.</p>"
 			}
 		]
 	},
@@ -227,7 +227,7 @@ var gridContent = [
 				"size": 2,
 				"offset": 0,
 				"descHeader": "I interview entrepreneurs in the developing world and share their stories with global investors",
-				"descContent": "<p>Zidisha is an online microlending community that directly connects lenders and entrepreneurs (see <a href='https://www.zidisha.org/'>Zidisha.org</a>).</p><p>I plan to spend two months in Nairobi volunteering my time with the non-profit organization as a Country Ambassador for Kenya.</p><p>More details to come.</p>"
+				"descContent": "<p>Zidisha is an online microlending community that directly connects lenders and entrepreneurs (see <a href='https://www.zidisha.org/'>Zidisha.org</a>).</p><p>I spent two months in Nairobi during the summer of 2015 volunteering my time with the non-profit organization as a Country Ambassador.</p><p>For more information, visit my blog about the experience, <a href='https://nikhilnairobi.wordpress.com/tag/profiles-of-microfinance-borrowers/'>Nikhil Nairobi</a>.</p>"
 			}
 		]
 	}	
