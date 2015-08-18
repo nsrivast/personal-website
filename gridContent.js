@@ -169,14 +169,25 @@ var gridContent = [
 			},
 			{
 				"name": "NA",
-				"heading": "Data Visualization Seminar",
+				"heading": "Data Visualization",
 				"blurb": "Part-time Course",
 				"role": "Instructor",
 				"tags": ["visualize", "teaching", "understanding"],
-				"size": 3,
+				"size": 2,
 				"offset": 0,
 				"descHeader": "I teach a data visualization course",
 				"descContent": "<p>In Nairobi during the summer of 2015, I designed and taught a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focused on the principles and techniques of effective data visualization.</p><p>See the <a href='http://nsrivast.github.io/data-viz-nairobi/'>course website</a> for more information.</p>"
+			},
+			{
+				"name": "NB",
+				"heading": "Nairobi",
+				"blurb": "website",
+				"role": "Creator",
+				"tags": ["organize", "visualize", "teaching", "understanding"],
+				"size": 1,
+				"offset": 0,
+				"descHeader": "I create a geographically-organized blog",
+				"descContent": "<p>I maintained a blog of my experience volunteering and teaching in Nairobi during the summer of 2015. After returning, I organized the material geographically to showcase the city's physical and human geography. </p><p>See the <a href='http://nsrivast.github.io/nairobi/'>project</a>.</p>"
 			}
 		]
 	},
