@@ -47,7 +47,7 @@ var gridContent = [
 				"heading": "Deutsche Bank",
 				"blurb": "Global Bank",
 				"role": "Equity Derivatives Trader",
-				"tags": ["finance", "business"],
+				"tags": ["analytics", "business"],
 				"size": 3,
 				"offset": 0,
 				"descHeader": "I grow a trading business at a bulge-bracket bank",
@@ -58,11 +58,22 @@ var gridContent = [
 				"heading": "iSENTIUM",
 				"blurb": "Fin-Tech Startup",
 				"role": "Product, Sales",
-				"tags": ["finance", "technology", "product", "business"],
-				"size": 3,
+				"tags": ["analytics", "technology", "product", "business"],
+				"size": 2,
 				"offset": 0,
 				"descHeader": "I build a fin-tech product and bring it to market",
 				"descContent": "<p><a href='http://isentium.com'>iSENTIUM</a> analyzes Twitter sentiment to predict stock prices.</p><p>As an early employee and the first product hire, I had the opportunity to: <ul><li>develop the company's flagship trading application on the Bloomberg platform</li><li>lead a team of data scientists in producing a trading strategy that returned 25% in 2014 and is up 20+% through April 2015</li><li>pitch the company's products and vision to bulge-bracket banks, hedge funds, VCs, and private investors</li</ul></p>"
+			},
+			{
+				"name": "TW",
+				"heading": "Twine",
+				"blurb": "People Analytics",
+				"role": "Co-founder & CTO",
+				"tags": ["analytics", "technology", "product", "business"],
+				"size": 2,
+				"offset": 0,
+				"descHeader": "I launch and build an enterprise software company",
+				"descContent": "<p><a href='http://www.twinelabs.com'>Twine</a> helps employees grow with their companies, not out of them. We build software to match employees with new roles inside their companies - helping Fortune 1000 firms retain top talent and save millions on hiring and training.</p><ul><li>Early funding from Dorm Room Fund and Rough Draft Ventures.</li><li>Live projects with two Fortune 1000 firms.</li></ul></p>"
 			}
 		]
 	},
@@ -78,7 +89,7 @@ var gridContent = [
 				"role": "",
 				"size": 1,
 				"offset": 0,
-				"descHeader": "I complete high school",
+				"descHeader": "",
 				"descContent": "<p>Student Body President</p><p>USA Today All-USA Academic 2nd Team</p>"
 			},
 			{
@@ -97,11 +108,11 @@ var gridContent = [
 				"heading": "Wharton",
 				"blurb": "MBA",
 				"role": "Entrepreneurship",
-				"tags": ["business"],
+				"tags": ["analytics", "business"],
 				"size": 2,
 				"offset": 4,
 				"descHeader": "I pursue an MBA with a focus in Entrepreneurial Management",
-				"descContent": "<p>Details to follow.</p>"
+				"descContent": "<p><ul><li>President of Wharton Analytics Club</li></ul></p>"
 			}
 		]
 	},
@@ -134,7 +145,7 @@ var gridContent = [
 				"role": "Creator",
 				"tags": ["organize", "product", "understanding", "technology"],
 				"size": 2,
-				"offset": 1,
+				"offset": 0,
 				"descHeader": "I build a tool to track the wines I drink",
 				"descContent": "<p>A precursor to wine apps like Vivino, My Wines was a tool I built to record tastings of different wines.</p><p>The system used a highly structured data format for wines and tastings; organizing vineyards into subregions and regions, including notes by flavor profiles, and charting numerical scores along various taste metrics (e.g. acidity, body, intensity), to name a few.</p><p>After discovering how valuable it was to view the history of my personal wine development, and realizing I wanted the same organization and context to all of my personal data, My Wines was eventually folded into the 'Wine' theme of Pensieve.</p><p>The code for My Wines is available <a href='https://github.com/nsrivast/mywines'>on Github</a>.</p>"
 			},
@@ -143,7 +154,7 @@ var gridContent = [
 				"heading": "Pensieve",
 				"blurb": "Knowledge Management System",
 				"role": "Creator",
-				"tags": ["organize", "product", "understanding", "technology"],
+				"tags": ["organize", "product", "analytics", "understanding", "technology"],
 				"size": 3,
 				"offset": 1,
 				"descHeader": "I build, essentially, my own <a href='http://en.wikipedia.org/wiki/Memex'>Memex</a>",
@@ -163,7 +174,7 @@ var gridContent = [
 				"role": "Creator",
 				"tags": ["visualize", "understanding"],
 				"size": 2,
-				"offset": 5,
+				"offset": 4,
 				"descHeader": "I explore a data set and build a visualization",
 				"descContent": "<p>Unable to find a central resource that answered the question of which flora are prevalent in a given area of the country, I created a data visualization to explore and examine the distribution of tree species across the US.</p><p>The project trajectory, ranging from exploring and analyzing the data to designing and constructing the visualization, is detailed <a href='https://github.com/nsrivast/tree-range-viz'>on Github</a>. The visualization itself can be found <a href='http://nsrivast.github.io/tree-range-viz/'>here</a>.</p>"
 			},
@@ -173,21 +184,10 @@ var gridContent = [
 				"blurb": "Part-time Course",
 				"role": "Instructor",
 				"tags": ["visualize", "teaching", "understanding"],
-				"size": 2,
-				"offset": 0,
+				"size": 3,
+				"offset": 1,
 				"descHeader": "I teach a data visualization course",
 				"descContent": "<p>In Nairobi during the summer of 2015, I designed and taught a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focused on the principles and techniques of effective data visualization.</p><p>See the <a href='http://nsrivast.github.io/data-viz-nairobi/'>course website</a> for more information.</p>"
-			},
-			{
-				"name": "NB",
-				"heading": "Nairobi",
-				"blurb": "website",
-				"role": "Creator",
-				"tags": ["organize", "visualize", "teaching", "understanding"],
-				"size": 1,
-				"offset": 0,
-				"descHeader": "I create a geographically-organized blog",
-				"descContent": "<p>I maintained a blog of my experience volunteering and teaching in Nairobi during the summer of 2015. After returning, I organized the material geographically to showcase the city's physical and human geography. </p><p>See the <a href='http://nsrivast.github.io/nairobi/'>project</a>.</p>"
 			}
 		]
 	},
@@ -198,7 +198,7 @@ var gridContent = [
 		"tiles": [
 			{
 				"name": "CA",
-				"heading": "Cambridge School Volunteers",
+				"heading": "Cambridge Volunteers",
 				"blurb": "Volunteer Organization",
 				"role": "Teaching Assistant",
 				"tags": ["teaching"],
@@ -211,9 +211,9 @@ var gridContent = [
 				"name": "NY",
 				"heading": "New York Cares",
 				"blurb": "Volunteer Organization",
-				"role": "Adult Education Volunteer",
+				"role": "Adult Education",
 				"tags": ["teaching"],
-				"size": 3,
+				"size": 2,
 				"offset": 0,
 				"descHeader": "I teach language and computer skills to adults",
 				"descContent": "<p>New York Cares is a group of volunteer organizations across New York City.</p><p>I participated in a series of adult education classes and seminars, teaching basic language and computer literacy skills to adult immigrants in low-income neighborhoods.</p>"
@@ -234,11 +234,11 @@ var gridContent = [
 				"heading": "Zidisha",
 				"blurb": "P2P Microlending",
 				"role": "Kenya Ambassador",
-				"tags": ["teaching"],
+				"tags": ["teaching", "visualize"],
 				"size": 2,
 				"offset": 0,
 				"descHeader": "I interview entrepreneurs in the developing world and share their stories with global investors",
-				"descContent": "<p>Zidisha is an online microlending community that directly connects lenders and entrepreneurs (see <a href='https://www.zidisha.org/'>Zidisha.org</a>).</p><p>I spent two months in Nairobi during the summer of 2015 volunteering my time with the non-profit organization as a Country Ambassador.</p><p>For more information, visit my blog about the experience, <a href='https://nikhilnairobi.wordpress.com/tag/profiles-of-microfinance-borrowers/'>Nikhil Nairobi</a>.</p>"
+				"descContent": "<p><a href='https://www.zidisha.org/'>Zidisha</a> is an online microlending community that directly connects lenders and entrepreneurs.</p><p>I spent two months in Nairobi during the summer of 2015 volunteering my time with the non-profit organization as a Country Ambassador, and <a href='https://nikhilnairobi.wordpress.com/tag/profiles-of-microfinance-borrowers/'>wrote a blog</a>.</p><p>I organized my blog posts geographically to showcase the city's <a href='http://nsrivast.github.io/nairobi/'>physical and human geography</a>.</p>"
 			}
 		]
 	}	
