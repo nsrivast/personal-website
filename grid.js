@@ -64,10 +64,11 @@ function tileFromContent( tC ) {
       tC.hotword += "hotword" + tC.tags[i] + " ";
     }
   }
-
-  return( 
+	
+  return(
     $( "<div/>", {'class': tC.class} ).append(
       $( "<div/>", {'class': 'tileContent ' + tC.color + tC.hotword, 'id': tC.rowID + tC.name, 'tileRow': tC.rowID} )
+        .append($( "<div/>", {'class': 'tileImg', html: tC.img ? "<img src='images/" + tC.img + "_sm.png' />" : ""} ))
         .append($( "<div/>", {'class': 'tileHeading', html: tC.heading} ))
         .append($( "<div/>", {'class': 'tileBlurb', html: tC.blurb} ))
         .append($( "<div/>", {'class': 'tileRole', html: tC.role} ))
@@ -85,7 +86,8 @@ function dropdownFromContent( tC ) {
     $( "<div/>", {'class': 'grid grid-pad', css: {'display': 'none'}, 'id': "desc" + tC.rowID + tC.name, 'descRow': tC.rowID } ).append(
       $( "<div/>", {'class': dropdownClass} ).append(
         $( "<div/>", {'class' : "descContent" } )
-          .append($( "<div/>", {html: tC.descHeader, 'class': "descHeader" } ))
+					.append($( "<div/>", {'class': 'descImg', html: tC.img ? "<img src='images/" + tC.img + ".png' />" : ""} ))
+	        .append($( "<div/>", {html: tC.descHeader, 'class': "descHeader" } ))
           .append($( "<div/>", {html: tC.descContent} ))
       )
     )

@@ -17,7 +17,7 @@ body {
 	height: 100px;
 	padding: 15px;
 	background-color: white;
-	border-bottom: 2px black solid;
+	border-bottom: 2px solid black;
 }
 
 .intro {
@@ -62,7 +62,7 @@ body {
 }
 
 .gridIntro {
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 5px;
 	margin-left: 200px;
 	font-size: 16px;
@@ -106,6 +106,25 @@ body {
 	font-weight: bold;
 }
 
+.tileImg {
+	position: relative;
+}
+
+.tileImg img {
+	position: absolute;
+  right: 0;
+  top: 0;
+	height: 30px;
+}
+
+.descImg {
+}
+
+.descImg img {
+	height: 50px;
+	margin-bottom: 5px;
+}
+
 .tileColor1 { background: rgb(160,160,160); color: rgb(0,0,0);}
 .tileColor2 { background: rgb(168,168,168); color: rgb(10,10,10);}
 .tileColor3 { background: rgb(176,176,176); color: rgb(20,20,20);}
@@ -141,8 +160,8 @@ body {
 .descHeader {
 	font-size: 15px;
 	font-weight: bold;
-	padding-bottom: 5px;
-	border-bottom: 1px solid black;
+	padding-top: 5px;
+	border-top: 2px solid black;
 	margin-bottom: 15px;
 }
 
@@ -157,11 +176,16 @@ body {
 	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
 	padding-left: 20px;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 5px;
 	border-top: 2px solid rgb(216,216,216);
 }
 
 .footer a {
 	font-size: 14px;
+}
+
+.footer-right {
+	float: right;
+	margin-right: 20px;
 }

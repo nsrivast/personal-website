@@ -33,6 +33,7 @@ var gridContent = [
 		"tiles": [
 			{
 				"name": "TW",
+				"img": "TW",
 				"heading": "Twine",
 				"blurb": "People Analytics",
 				"role": "Co-founder & CTO",
@@ -44,6 +45,7 @@ var gridContent = [
 			},
 			{
 				"name": "IS",
+				"img": "IS",
 				"heading": "iSENTIUM",
 				"blurb": "Fin-Tech Startup",
 				"role": "Product, Sales",
@@ -55,6 +57,7 @@ var gridContent = [
 			},
 			{
 				"name": "DB",
+				"img": "DB",
 				"heading": "Deutsche Bank",
 				"blurb": "Global Bank",
 				"role": "Equity Derivatives Trader",
@@ -66,12 +69,13 @@ var gridContent = [
 			},
 			{
 				"name": "YI",
+				"img": "YI",
 				"heading": "YouIntern",
 				"blurb": "Social Network",
 				"role": "CoFounder & CTO",
 				"tags": ["technology", "product", "business"],
 				"size": 2,
-				"offset": 1,
+				"offset": 0,
 				"descHeader": "I build and grow a social network for interns",
 				"descContent": "<p><a href='http://youintern.com/'>YouIntern</a> was a social network and online community that provided job opportunities and career advice to students seeking internships.</p><p>Partnering with <a href='http://www.linkedin.com/in/danchaparian'>Dan Chaparian</a> and <a href='http://www.linkedin.com/in/achopramcgowan/'>Anand Chopra-McGowan</a> on the business side, I developed and maintained the web community for two years, attracting 125k unique visitors, 550 employer members, and 6000+ student members.</p><p>A detailed description of the website and its codebase is available <a href='https://github.com/nsrivast/youintern'>here</a>.</p>"
 			}
@@ -84,6 +88,7 @@ var gridContent = [
 		"tiles": [
 			{
 				"name": "WH",
+				"img": "WH",
 				"heading": "Wharton",
 				"blurb": "MBA",
 				"role": "Entrepreneurship",
@@ -95,21 +100,23 @@ var gridContent = [
 			},
 			{
 				"name": "HA",
+				"img": "HA",
 				"heading": "Harvard",
 				"blurb": "Bachelor of Arts",
-				"role": "Physics, Neuroscience",
+				"role": "Physics",
 				"tags": ["technology"],
-				"size": 3,
+				"size": 2,
 				"offset": 3,
 				"descHeader": "I study physics, biology, and computer science",
 				"descContent": "<p>I majored in Physics and minored in Neuroscience, graduating <i>Magna Cum Laude</i> and <i>Phi Beta Kappa</i>.</p><p>My research led to two academic publications:<ul><li>Nikhil Srivastava, Damon A Clark, and Aravinthan D. T. Samuel (2009), “Temporal analysis of stochastic turning behavior of swimming <i>C. elegans</i>,” <i>Journal of Neurophysiology</i> 102: 1172-1179</li><li>Edited string theory textbook for Professor Melanie Becker: <i>String Theory and M-Theory: A Modern Introduction</i>, November 2006</li></ul></p>"
 			},
 			{
 				"name": "PI",
+				"img": "PI",
 				"heading": "Pingry",
 				"blurb": "High School",
 				"role": "",
-				"size": 1,
+				"size": 2,
 				"offset": 0,
 				"descHeader": "",
 				"descContent": "<p>Student Body President</p><p>USA Today All-USA Academic 2nd Team</p>"
@@ -169,6 +176,7 @@ var gridContent = [
 		"tiles": [
 			{
 				"name": "NA",
+				"img": "NA",
 				"heading": "Data Visualization",
 				"blurb": "Part-time Course",
 				"role": "Instructor",
@@ -180,11 +188,12 @@ var gridContent = [
 			},
 			{
 				"name": "TR",
+				"img": "TR",
 				"heading": "Tree Range Map",
 				"blurb": "Data Visualization",
 				"role": "Creator",
 				"tags": ["visualize", "understanding"],
-				"size": 2,
+				"size": 3,
 				"offset": 1,
 				"descHeader": "I explore a data set and build a visualization",
 				"descContent": "<p>Unable to find a central resource that answered the question of which flora are prevalent in a given area of the country, I created a data visualization to explore and examine the distribution of tree species across the US.</p><p>The project trajectory, ranging from exploring and analyzing the data to designing and constructing the visualization, is detailed <a href='https://github.com/nsrivast/tree-range-viz'>on Github</a>. The visualization itself can be found <a href='http://nsrivast.github.io/tree-range-viz/'>here</a>.</p>"
@@ -198,6 +207,7 @@ var gridContent = [
 		"tiles": [
 			{
 				"name": "ZI",
+				"img": "ZI",
 				"heading": "Zidisha",
 				"blurb": "P2P Microlending",
 				"role": "Kenya Ambassador",
@@ -209,6 +219,7 @@ var gridContent = [
 			},
 			{
 				"name": "YB",
+				"img": "YB",
 				"heading": "YouthBuild",
 				"blurb": "Charter School",
 				"role": "Teaching Assistant",
