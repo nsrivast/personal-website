@@ -40,8 +40,8 @@ var gridContent = [
 				"tags": ["analytics", "technology", "product", "business"],
 				"size": 2,
 				"offset": 0,
-				"descHeader": "I launch and build an enterprise software company",
-				"descContent": "<p><a href='http://www.twinelabs.com'>Twine</a> helps employees grow with their companies, not out of them. We build software to match employees with new roles inside their companies - helping Fortune 1000 firms retain top talent and save millions on hiring and training.</p><ul><li>Early funding from Dorm Room Fund and Rough Draft Ventures.</li><li>Live projects with two Fortune 1000 firms.</li></ul></p>"
+				"descHeader": "I found and grow a people analytics startup",
+				"descContent": "<p><a href='http://www.twinelabs.com'>Twine</a> helps employees grow with their companies, not out of them. We build software to match employees with new roles inside their companies - helping Fortune 1000 firms retain top talent and save millions on hiring and training.</p><ul><li>Backed by YCombinator, Trinity Ventures, and other top investors.</li><li><a href='https://angel.co/twine-labs/jobs'>We're hiring!</a></li></ul></p>"
 			},
 			{
 				"name": "IS",
@@ -93,9 +93,9 @@ var gridContent = [
 				"blurb": "MBA",
 				"role": "Entrepreneurship",
 				"tags": ["analytics", "business"],
-				"size": 3,
-				"offset": 0,
-				"descHeader": "I pursue an MBA with a focus in Entrepreneurial Management",
+				"size": 2,
+				"offset": 1,
+				"descHeader": "I complete an MBA, focusing on Entrepreneurial Management & Data Analytics",
 				"descContent": "<p><ul><li>President of Wharton Analytics Club</li></ul></p>"
 			},
 			{
@@ -107,8 +107,8 @@ var gridContent = [
 				"tags": ["technology"],
 				"size": 2,
 				"offset": 3,
-				"descHeader": "I study physics, biology, and computer science",
-				"descContent": "<p>I majored in Physics and minored in Neuroscience, graduating <i>Magna Cum Laude</i> and <i>Phi Beta Kappa</i>.</p><p>My research led to two academic publications:<ul><li>Nikhil Srivastava, Damon A Clark, and Aravinthan D. T. Samuel (2009), “Temporal analysis of stochastic turning behavior of swimming <i>C. elegans</i>,” <i>Journal of Neurophysiology</i> 102: 1172-1179</li><li>Edited string theory textbook for Professor Melanie Becker: <i>String Theory and M-Theory: A Modern Introduction</i>, November 2006</li></ul></p>"
+				"descHeader": "I study physics and computer science",
+				"descContent": "<p>I graduated <i>Magna Cum Laude</i> and <i>Phi Beta Kappa</i>.</p><p>My research led to two academic publications:<ul><li>Nikhil Srivastava, Damon A Clark, and Aravinthan D. T. Samuel (2009), “Temporal analysis of stochastic turning behavior of swimming <i>C. elegans</i>,” <i>Journal of Neurophysiology</i> 102: 1172-1179</li><li>Edited string theory textbook for Professor Melanie Becker: <i>String Theory and M-Theory: A Modern Introduction</i>, November 2006</li></ul></p>"
 			},
 			{
 				"name": "PI",
@@ -181,7 +181,7 @@ var gridContent = [
 				"blurb": "Part-time Course",
 				"role": "Instructor",
 				"tags": ["visualize", "teaching", "understanding"],
-				"size": 3,
+				"size": 2,
 				"offset": 0,
 				"descHeader": "I teach a data visualization course",
 				"descContent": "<p>In Nairobi during the summer of 2015, I designed and taught a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focused on the principles and techniques of effective data visualization.</p><p>See the <a href='http://nsrivast.github.io/data-viz-nairobi/'>course website</a> for more information.</p>"
@@ -194,7 +194,7 @@ var gridContent = [
 				"role": "Creator",
 				"tags": ["visualize", "understanding"],
 				"size": 3,
-				"offset": 1,
+				"offset": 2,
 				"descHeader": "I explore a data set and build a visualization",
 				"descContent": "<p>Unable to find a central resource that answered the question of which flora are prevalent in a given area of the country, I created a data visualization to explore and examine the distribution of tree species across the US.</p><p>The project trajectory, ranging from exploring and analyzing the data to designing and constructing the visualization, is detailed <a href='https://github.com/nsrivast/tree-range-viz'>on Github</a>. The visualization itself can be found <a href='http://nsrivast.github.io/tree-range-viz/'>here</a>.</p>"
 			}
