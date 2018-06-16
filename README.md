@@ -7,3 +7,4 @@ grid.js transforms the resume content located in gridContent.js into a set of ti
 events.js ties the hover, click, and highlight events to the grid tiles and hotwords.
 
 
+![nikhilsrivastava.com website image](https://github.com/nsrivast/personal-website/blob/master/images/ns.png)
