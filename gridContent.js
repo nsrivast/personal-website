@@ -40,9 +40,9 @@ var gridContent = [
         tags: ['analytics', 'technology', 'product', 'business'],
         size: 3,
         offset: 0,
-        descHeader: 'I start and build a people analytics startup',
+        descHeader: 'I grow a venture-backed People Analytics company',
         descContent:
-          "<p><a href='http://www.twinelabs.com'>Twine</a> builds people analytics software that touches the lives of thousands of employees. We’re growing rapidly, and already serve many of the world’s best technology companies, like Asana, SurveyMonkey, Segment, and Evernote.</p><p>We’ve raised millions from Silicon Valley VCs, angel investors, and thought leaders - including Ross Mason, the founder of MuleSoft (acq. $6.5B), and author/professor Adam Grant.</p>",
+          "<p><a href='http://www.twinelabs.com'>Twine</a> builds people analytics software that touches the lives of thousands of employees. We’re growing rapidly, and already serve many of the world’s best technology companies, like Asana, SurveyMonkey, Segment, and Evernote.</p>",
       },
       {
         name: 'IS',
@@ -53,9 +53,9 @@ var gridContent = [
         tags: ['analytics', 'technology', 'product', 'business'],
         size: 2,
         offset: 0,
-        descHeader: 'I design and bring a fin-tech analytics product to market',
+        descHeader: 'I bring a financial data analytics product to market',
         descContent:
-          "<p><a href='http://isentium.com'>iSENTIUM</a> analyzes Twitter sentiment to predict stock prices.</p><p>As an early employee and the first product hire, I had the opportunity to: <ul><li>develop the company's flagship trading application on the Bloomberg platform</li><li>lead a team of data scientists in producing a trading strategy that returned 25% in 2014 and is up 20+% through April 2015</li><li>pitch the company's products and vision to bulge-bracket banks, hedge funds, VCs, and private investors</li</ul></p>",
+          '<p>As an early employee, I led a team of engineers + data scientists to build our web application and produce a trading strategy that returned 20+% in 2013-2015. I also personally joined the CEO to sell our vision on investor roadshows.</p>',
       },
       {
         name: 'DB',
@@ -66,9 +66,9 @@ var gridContent = [
         tags: ['analytics', 'business'],
         size: 2,
         offset: 0,
-        descHeader: 'I grow a trading business at a bulge-bracket bank',
+        descHeader: 'I run a trading book',
         descContent:
-          '<p>For 4 years, I traded exotic derivatives on US equities in a 3-person team with $60M+ P&L. During this time, I was able to: <ul><li>develop a new volatility product business, contributing $15M P&L in 2010 and $30M in 2011</li><li>grow a $3M insurance business by 200% in 3 years by improving risk-management and on-boarding new clients</li><li>design and execute proprietary trading strategies for institutional and retail clients</li></ul></p>',
+          '<p>I traded exotic derivatives on a high-caliber team of 2 senior directors. I developed a new volatility product business that contributed $15M P&L in 2010 and $30M in 2011, and grew our insurance product business by 200% in 3 years.</p>',
       },
       {
         name: 'YI',
@@ -81,7 +81,7 @@ var gridContent = [
         offset: 0,
         descHeader: 'I build and grow a social network for interns',
         descContent:
-          "<p><a href='http://youintern.com/'>YouIntern</a> was a social network and online community that provided job opportunities and career advice to students seeking internships.</p><p>Partnering with <a href='http://www.linkedin.com/in/danchaparian'>Dan Chaparian</a> and <a href='http://www.linkedin.com/in/achopramcgowan/'>Anand Chopra-McGowan</a> on the business side, I developed and maintained the web community for two years, attracting 125k unique visitors, 550 employer members, and 6000+ student members.</p><p>A detailed description of the website and its codebase is available <a href='https://github.com/nsrivast/youintern'>here</a>.</p>",
+          "<p><a href='http://youintern.com/'>YouIntern</a> was a social network for students seeking internships. I developed and maintained the web application and community for two years, attracting 125k unique visitors, 550 employer members, and 6000+ student members.</p><p>A detailed description of the website and its codebase is available <a href='https://github.com/nsrivast/youintern'>here</a>.</p>",
       },
     ],
   },
@@ -99,8 +99,9 @@ var gridContent = [
         tags: ['analytics', 'business'],
         size: 2,
         offset: 2,
-        descHeader: 'I complete an MBA, focusing on Entrepreneurial Management & Data Analytics',
-        descContent: '<p><ul><li>President of Wharton Analytics Club</li></ul></p>',
+        descHeader: 'I develop leadership skills, make friends, and travel',
+        descContent:
+          '<p>I majored in Entrepreneurial Management & Data Analytics and ran the Analytics club.</p>',
       },
       {
         name: 'HA',
@@ -113,7 +114,7 @@ var gridContent = [
         offset: 2,
         descHeader: 'I study physics and computer science',
         descContent:
-          '<p>I graduated <i>Magna Cum Laude</i> and <i>Phi Beta Kappa</i>.</p><p>My research led to two academic publications:<ul><li>Nikhil Srivastava, Damon A Clark, and Aravinthan D. T. Samuel (2009), “Temporal analysis of stochastic turning behavior of swimming <i>C. elegans</i>,” <i>Journal of Neurophysiology</i> 102: 1172-1179</li><li>Edited string theory textbook for Professor Melanie Becker: <i>String Theory and M-Theory: A Modern Introduction</i>, November 2006</li></ul></p>',
+          '<p>I graduated <i>Magna Cum Laude</i> and <i>Phi Beta Kappa</i>, and published research in neuroscience and string theory.</p>',
       },
     ],
   },
@@ -133,7 +134,7 @@ var gridContent = [
         descHeader:
           "I build, essentially, my own <a href='http://en.wikipedia.org/wiki/Memex'>Memex</a>",
         descContent:
-          "<p>Pensieve is a knowledge management system that makes it easy to record memories and experiences, enabling its users to expand their memories, work toward personal goals, and learn about themselves along the way.</p><p>I built Pensieve out of a frustration with the tools and systems I was using to store, access, and protect personal information. It has since become an indispensable tool for organizing my private life and managing my personal development.</p><p>For more information, visit the <a href='http://blog.pensiev.com'>Pensieve blog</a>. To create an account, visit the <a href='http://pensiev.com'>Pensieve website</a>.</p>",
+          "<p><a href='http://pensiev.com'>Pensieve</a> makes it easy to record memories and experiences, helping people expand their memories, work toward personal goals, and learn about themselves along the way.</p><p>I built Pensieve out of a frustration with the tools and systems I was using to store, access, and protect personal information. It has since become an indispensable tool for organizing my private life and managing my personal development.</p>",
       },
       {
         name: 'TR',
@@ -178,7 +179,7 @@ var gridContent = [
         offset: 1,
         descHeader: 'I teach a data visualization course',
         descContent:
-          "<p>In Nairobi during the summer of 2015, I designed and taught a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focused on the principles and techniques of effective data visualization.</p><p>See the <a href='http://nsrivast.github.io/data-viz-nairobi/'>course website</a> for more information.</p>",
+          "<p>After completing independent study, I designed and created a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focuses on the principles and techniques of effective data visualization.</p><p>I've taught this course in several cities and countries, contact me for more information (it's free, but intense).</p>",
       },
       {
         name: 'ZI',
