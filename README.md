@@ -1,10 +1,9 @@
-## My Personal Website
+# An interactive, timeline resume
 
-For my personal website, I decided to create an interactive resume in a simple timeline format. You can view the website [here](http://nikhilsrivastava.com).
+Built in 2015 to learn more about Javascript/JQuery/CSS. Hosted [here](http://nikhilsrivastava.com).
 
-grid.js transforms the resume content located in gridContent.js into a set of tiles located on a grid (styled using simplegrid.css). Each tile is tied to a dropdown and tagged with one or more hotwords that highlight at the top of the page.
+[grid](grid.js) transforms the content in [gridContent](gridContent.js) into organized, styled tiles.
 
-events.js ties the hover, click, and highlight events to the grid tiles and hotwords.
+[events](events.js) connects hover/click events to information dislpay.
 
-
-![nikhilsrivastava.com website image](https://github.com/nsrivast/personal-website/blob/master/images/ns.png)
+![nikhilsrivastava.com website image](images/ns.png)

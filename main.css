@@ -8,57 +8,33 @@ body {
 /* Header and intro text */
 
 .header {
-	font-size: 16px;
-	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
   position: fixed;
 	left: 0;
 	right: 0;
-	height: 100px;
-	padding: 15px;
-	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
 	border-bottom: 2px solid black;
-}
-
-.intro {
-	padding: 5px;
-	margin-bottom: 10px;
 }
 
 .headerLeft {
 	font-size: 22px;
 	font-weight: 700;
-	padding-top: 10px;
-	margin-bottom: 20px;
 	float: left;
 }
 
 .headerRight {
-	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 400;
 	float: right;
 }
 
-.header p {
-	margin-top: 5px;
-	margin-bottom: 15px;
-}
-
-.introleft {
-	float: left;
-	width: 110px;
-}
-
-.hotword {
-	border-bottom: 3px solid orange;
-}
-
-
-/* Grid and Rows */
+/* Grid and rows */
 
 .gridContainer {
-	margin-left: 20px;
-	padding-top: 100px !important;
-	width: 95%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid rgb(216,216,216);
 }
 
 .gridIntro {
@@ -82,28 +58,24 @@ body {
 	padding-top: 15px;
 }
 
-/* Tile Content */
+/* Tiles */
 
 .tileContent {
 	padding: 10px;
 	height: 80px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .tileHeading {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: bold;
-}
-
-.tileBlurb {
-	font-size: 13px;
-	font-style: italic;
-	margin-bottom: 7px;
+	margin-bottom: 4px;
 }
 
 .tileRole {
 	font-size: 14px;
-	font-weight: bold;
+	font-style: italic;
 }
 
 .tileImg {
@@ -115,9 +87,6 @@ body {
   right: 0;
   top: 0;
 	height: 30px;
-}
-
-.descImg {
 }
 
 .descImg img {
@@ -139,6 +108,10 @@ body {
 .tileColor12 { background: rgb(248,248,248); color: rgb(110,110,110);}
 
 /* Tile Actions */
+
+.hotword {
+	border-bottom: 3px solid orange;
+}
 
 .tileHover {
 	background: orange;
@@ -172,20 +145,16 @@ body {
 /* Footer */
 
 .footer {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	border-top: 2px solid rgb(216,216,216);
+	padding: 15px;
 }
 
 .footer a {
-	font-size: 14px;
+	color: gray;
 }
 
 .footer-right {
 	float: right;
-	margin-right: 20px;
 }
