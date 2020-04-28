@@ -1,160 +1,147 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700);
-
 body {
-	font-size: 12px;
-	font-family: 'Lato', sans-serif;	
+    line-height: 160%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
-/* Header and intro text */
+@media(min-width:400px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.hot {
+    font-weight: 700;
+    border-bottom: 3px solid orange;
+}
+
+mark {
+    background: orange;
+    font-weight: bold;
+}
 
 .header {
-	font-family: 'Raleway', sans-serif;
-  position: fixed;
-	left: 0;
-	right: 0;
-	margin-bottom: 20px;
-	padding: 20px;
-	border-bottom: 2px solid black;
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(216, 216, 216);
 }
 
-.headerLeft {
-	font-size: 22px;
-	font-weight: 700;
-	float: left;
+.header h3 {
+    font-weight: normal;
 }
 
-.headerRight {
-	font-size: 16px;
-	font-weight: 400;
-	float: right;
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0
 }
 
-/* Grid and rows */
-
-.gridContainer {
-	padding-top: 100px;
-	padding-bottom: 50px;
-	border-bottom: 2px solid rgb(216,216,216);
+.header li {
+    display: inline-block;
+    margin-right: 5px;
 }
 
-.gridIntro {
-	margin-top: 25px;
-	margin-bottom: 5px;
-	margin-left: 200px;
-	font-size: 16px;
+.header img {
+    height: 30px;
 }
 
-.rowHead, .colHead {
-	font-size: 16px;
-	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
+.content ul {
+    list-style: none;
 }
 
-.rowHeadRight {
-	font-weight: 400;
-	font-family: 'Raleway', sans-serif;
-	text-align: right;
-	padding-right: 20px;
-	padding-top: 15px;
+.content li {
+    margin-bottom: 10px;
 }
 
-/* Tiles */
-
-.tileContent {
-	padding: 10px;
-	height: 80px;
-	border-radius: 5px;
-	cursor: pointer;
+.content img {
+    height: 10px;
+    display: inline-block;
 }
 
-.tileHeading {
-	font-size: 16px;
-	font-weight: bold;
-	margin-bottom: 4px;
+.content span {
+    width: 30px;
 }
 
-.tileRole {
-	font-size: 14px;
-	font-style: italic;
+.content .detail {
+    display: none;
+    /* background-color: rgb(230, 230, 230); */
+    border-left: 5px solid rgb(230, 230, 230);
+    padding: 0px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
 }
 
-.tileImg {
-	position: relative;
+.content .item {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
 }
 
-.tileImg img {
-	position: absolute;
-  right: 0;
-  top: 0;
-	height: 30px;
+
+/* Rotate */
+
+.rotate {
+    transform: rotate(-180deg);
+    transition: 0.5s;
 }
 
-.descImg img {
-	height: 50px;
-	margin-bottom: 5px;
+.rotate-reset {
+    transform: rotate(0deg);
+    transition: 0.5s;
 }
 
-.tileColor1 { background: rgb(160,160,160); color: rgb(0,0,0);}
-.tileColor2 { background: rgb(168,168,168); color: rgb(10,10,10);}
-.tileColor3 { background: rgb(176,176,176); color: rgb(20,20,20);}
-.tileColor4 { background: rgb(184,184,184); color: rgb(30,30,30);}
-.tileColor5 { background: rgb(192,192,192); color: rgb(40,40,40);}
-.tileColor6 { background: rgb(200,200,200); color: rgb(50,50,50);}
-.tileColor7 { background: rgb(208,208,208); color: rgb(60,60,60);}
-.tileColor8 { background: rgb(216,216,216); color: rgb(70,70,70);}
-.tileColor9 { background: rgb(224,224,224); color: rgb(80,80,80);}
-.tileColor10 { background: rgb(232,232,232); color: rgb(90,90,90);}
-.tileColor11 { background: rgb(240,240,240); color: rgb(100,100,100);}
-.tileColor12 { background: rgb(248,248,248); color: rgb(110,110,110);}
 
-/* Tile Actions */
+/* Fade-in */
 
-.hotword {
-	border-bottom: 3px solid orange;
+.fade {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
 }
 
-.tileHover {
-	background: orange;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-.tileSelect {
-	background: orange;
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-/* Description Content */
-
-.descContent {
-	background: white;
-	padding: 15px;
-	border-radius: 5px;
-	font-size: 15px;
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-.descHeader {
-	font-size: 15px;
-	font-weight: bold;
-	padding-top: 5px;
-	border-top: 2px solid black;
-	margin-bottom: 15px;
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-.descContent li {
-	margin-bottom: 4px;
-}
-
-/* Footer */
-
-.footer {
-	font-size: 14px;
-	font-weight: 400;
-	font-family: 'Raleway', sans-serif;
-	padding: 15px;
-}
-
-.footer a {
-	color: gray;
-}
-
-.footer-right {
-	float: right;
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

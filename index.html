@@ -2,61 +2,151 @@
 
 <html>
 
-	<head>
-		<title>Nikhil Srivastava</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="simplegrid.css" />
-		<link rel="stylesheet" type="text/css" href="main.css" />		
-	</head>
+<head>
+    <title>Nikhil Srivastava</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
 
-	<body>
-		
-		<div class="header">
-			<div class="headerLeft">
-				Hi, I'm <span class="hotword" word="">Nikhil Srivastava</span>.
-			</div>
-			<div class="headerRight">
-				<p>
-					I build 
-					<b><span class="hotword" word="data">data products</span></b> that deliver 
-					<b><span class="hotword" word="insights">business insights</span></b> from 
-					<b><span class="hotword" word="information">complex information</span></b>.
-				</p>
-			</div>
-		</div>
+<body>
+    <div class="header">
+        <h1>
+            Hi, I'm <span class="hot">Nikhil Srivastava</span>
+        </h1>
+        <h3>
+            <span class="fade">I build data</span> <span class="hot" data-keyword="product">products</span> <span class="fade">that deliver</span> <span class="hot" data-keyword="insight">insights</span> <span class="fade">from complex</span> <span class="hot"
+                data-keyword="information">information</span>
+        </h3>
+        <ul>
+            <li>
+                <a href='https://www.linkedin.com/in/nsrivast/'><img src='images/li_logo.png' /></a>
+            </li>
+            <li>
+                <a href='https://github.com/nsrivast'><img src='images/gh_logo.png' /></a>
+            </li>
+            <li>
+                <a href='mailto:contact.nikhil.srivastava@gmail.com'><img src='images/email_logo.png' /></a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <h3>To do</h3>
+        <ul>
+            <li>
+                Styling
+            </li>
+            <li>
+                Responsiveness
+            </li>
+        </ul>
 
-		<div class="gridContainer" id="gridContainer">
-			<div class="gridIntro">
-				&larr; More recent
-			</div>
-		</div>
-		
-		<div class="footer">
-			<a href='mailto:contact.nikhil.srivastava@gmail.com'>Email</a> | <a href='https://www.linkedin.com/pub/nikhil-srivastava/12/980/363'>LinkedIn</a> | <a href='https://github.com/nsrivast'>GitHub</a>
-			<div class="footer-right">
-				<a href='https://github.com/nsrivast/nsrivast.github.io'>About this site</a>
-			</div>
-		</div>
-		
-		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
-		<script type="text/javascript" src="grid.js"></script>
-		<script type="text/javascript" src="events.js"></script>
-		<script type="text/javascript" src="gridContent.js"></script>
-		
-		<script type="text/javascript">
-			$( document ).ready(function() {
-				createGrid();
-				setEvents();
-			});
-		</script>
-		
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-63664094-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
-	</body>
+        <h3>Professional
+            <a class="arrow" data-keyword="professional">
+                <img class="arrow-img rotate-reset" src="images/arrow.png" />
+            </a>
+        </h3>
+
+        <ul>
+            <li>
+                <span class="item">Twine</span> — I grow a venture-backed SaaS business
+                <div class="detail professional">
+                    <p><a href='http://www.twinelabs.com'>Twine</a> helps companies like CreditKarma, Robinhood, and DollarShaveClub make better employee decisions with integrated employee data, visualizations, and predictive analytics.</p>
+                    <p>As co-founder and CTO, I built our technology stack & team to deliver Twine’s people analytics product: data infrastructure (Python/Airflow), web application (Django/React), modeling & visualization (numpy/D3)</p>
+                </div>
+            </li>
+            <li>
+                <span class="item">Pensieve</span> — I create a memory management app
+                <div class="detail professional">
+                    <p><a href='http://pensiev.com'>Pensieve</a> makes it easy to record memories and experiences, helping people expand their memories, work toward personal goals, and learn about themselves along the way.</p>
+                    <p>I built Pensieve out of a frustration with the tools and systems I was using to store, access, and protect personal information. It has since become an indispensable tool for organizing my private life and managing my personal development.
+                        It is, essentially, my own <a href='http://en.wikipedia.org/wiki/Memex'>Memex</a>.</p>
+                </div>
+            </li>
+            <li>
+                <span class="item">iSentium</span> — I build and sell a fin-tech ML product
+                <div class="detail professional">
+                    <p>iSentium helped financial institutions make smarter trading decisions by measuring and analyzing real-time sentiment in social media.</p>
+                    <p>As an early employee, I led a team of engineers + data scientists to build our web application and produce a trading strategy that returned 20+% in 2013-2015. I also personally joined the CEO to sell our vision on investor roadshows.</p>
+                </div>
+            </li>
+        </ul>
+
+        <h3>Projects
+            <a class="arrow" data-keyword="project">
+                <img class="arrow-img rotate-reset" src="images/arrow.png" />
+            </a>
+        </h3>
+        <ul>
+            <li>
+                <span class="item">YouIntern</span> — I build and grow a social network for interns
+                <div class="detail project">
+                    <p><a href='http://youintern.com/'>YouIntern</a> was a social network for students seeking internships. I developed and maintained the web application and community for two years, attracting 125k unique visitors, 550 employer members,
+                        and 6000+ student members.</p>
+                    <p>A detailed description of the website and its codebase is available <a href='https://github.com/nsrivast/youintern'>here</a>.</p>
+                </div>
+            </li>
+            <li>
+                <span class="item">Data Viz instructor</span> — I teach a data visualization course
+                <div class="detail project">
+                    <p>After completing independent study, I designed and created a part-time course on Data Visualization for local university students and aspiring tech entrepreneurs. The course focuses on the principles and techniques of effective data
+                        visualization.
+                    </p>
+                    <p>I've taught this course in several cities and countries, contact me for more information (it's free, but intense).</p>
+                </div>
+            </li>
+            <li>
+                <span class="item">____</span> — more projects!!
+            </li>
+        </ul>
+
+        <h3>Personal</h3>
+        <ul>
+            <li>
+                ABC
+            </li>
+            <li>
+                DEF
+            </li>
+            <li>
+                <a href='https://github.com/nsrivast/nsrivast.github.io'>About this site</a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.hot').hover(function() {
+                $(".content").mark(this.getAttribute('data-keyword'));
+            }, function() {
+                $(".content").unmark();
+            });
+
+            $('.arrow').on("click", function(event) {
+                const keyword = this.getAttribute('data-keyword');
+                $('.arrow-img').toggleClass('rotate');
+                $('.arrow-img').toggleClass('rotate-reset');
+                $(".detail." + keyword).toggle(500);
+            });
+        });
+    </script>
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-63664094-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
