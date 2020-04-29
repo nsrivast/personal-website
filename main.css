@@ -5,13 +5,8 @@ body {
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 0.02em;
-}
-
-@media(min-width:400px) {
-    body {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .hot {
@@ -21,7 +16,10 @@ body {
 
 mark {
     background: orange;
-    font-weight: bold;
+}
+
+.header h3 {
+    font-weight: normal;
 }
 
 .header {
@@ -29,23 +27,9 @@ mark {
     border-bottom: 2px solid rgb(216, 216, 216);
 }
 
-.header h3 {
-    font-weight: normal;
-}
-
-.header ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 0
-}
-
-.header li {
-    display: inline-block;
-    margin-right: 5px;
-}
-
 .header img {
-    height: 30px;
+    height: 10px;
+    display: inline-block;
 }
 
 .content ul {
@@ -56,28 +40,38 @@ mark {
     margin-bottom: 10px;
 }
 
-.content img {
-    height: 10px;
+.content .title {
     display: inline-block;
-}
-
-.content span {
-    width: 30px;
+    width: 200px;
+    font-weight: bold;
 }
 
 .content .detail {
     display: none;
-    /* background-color: rgb(230, 230, 230); */
     border-left: 5px solid rgb(230, 230, 230);
     padding: 0px 20px;
     margin: 20px 0px;
     border-radius: 5px;
 }
 
-.content .item {
+.footer {
+    padding: 20px 0px;
+    border-top: 2px solid rgb(216, 216, 216);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.footer li {
     display: inline-block;
-    width: 200px;
-    font-weight: bold;
+    margin-right: 10px;
+}
+
+.footer img {
+    height: 30px;
 }
 
 
@@ -93,55 +87,21 @@ mark {
     transition: 0.5s;
 }
 
-
-/* Fade-in */
-
-.fade {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
+@media screen and (max-width: 800px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
     }
-    100% {
-        opacity: 1;
+    .header {
+        padding-top: 0px;
     }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
+    .content ul {
+        margin-left: 0px;
     }
-    100% {
-        opacity: 1;
+    .content .title {
+        display: block;
     }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
+    .content .dash {
+        display: none;
     }
 }
