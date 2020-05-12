@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700);
 body {
     line-height: 160%;
     font-family: 'Raleway', sans-serif;
@@ -7,15 +7,16 @@ body {
     letter-spacing: 0.02em;
     margin-left: 20%;
     margin-right: 20%;
+    color: rgb(42, 52, 57);
 }
 
 .hot {
     font-weight: 700;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid rgb(255, 140, 0);
 }
 
 mark {
-    background: orange;
+    background: rgb(255, 140, 0);
 }
 
 .header h3 {
@@ -30,6 +31,10 @@ mark {
 .header img {
     height: 10px;
     display: inline-block;
+}
+
+.header .arrow {
+    cursor: pointer;
 }
 
 .content ul {
@@ -52,6 +57,13 @@ mark {
     padding: 0px 20px;
     margin: 20px 0px;
     border-radius: 5px;
+}
+
+.content li a {
+    font-weight: bold;
+    color: rgb(42, 52, 57);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 140, 0);
 }
 
 .footer {
